@@ -1,8 +1,8 @@
 name: ci
 on: ["push"]
 jobs:
-  lint:
-    name: Lint
+  ci:
+    name: CI
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
